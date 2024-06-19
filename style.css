@@ -1,0 +1,162 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+.navbar {
+  background-color: #ffff;
+  border: 0.2em solid #ee3e38;
+  border-radius: 0.25em;
+}
+#img1 {
+  width: 16em;
+  height: fit-content;
+}
+
+#btn {
+  background-color: #8d021f;
+}
+#btn:hover {
+  background-color: #8d021f;
+}
+#caption {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  color: #ef7fe0;
+
+  margin-bottom: 2em;
+  text-shadow: 0.02em 0.02em 0 gray;
+  z-index: 1;
+
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.description-title {
+  font-family: "Baskervville", serif;
+  font-size: 3em;
+  margin-top: 1em;
+  text-align: center;
+  color: #ee3e38;
+  text-shadow: 0.02em 0.02em 0 gray;
+}
+b {
+  font-size: 1.5em;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lista1 {
+  color: #8d021f;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+.container1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.porfolio {
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+
+  text-align: center;
+  color: #ff908b;
+  text-shadow: 0.02em 0.02em 0 gray;
+}
+.wsp {
+  font-size: 2em;
+  text-align: center;
+  color: #8d021f;
+}
+.location1 {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+#location {
+  text-decoration: none;
+  color: #8d021f;
+}
+#location:hover {
+  color: #ee3e38;
+}
+.flag {
+  text-align: center;
+}
+.imgflag {
+  margin-top: 1em;
+  border-radius: 0.35em;
+}
+footer {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em;
+}
+#insta {
+  justify-content: center;
+  text-align: center;
+}
+
+#insta1 {
+  font-size: 8em;
+  text-decoration: none;
+}
+.nav-item {
+  font-size: 1.3em;
+}
+#btn-nav {
+  color: #db385b;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0.03em 0.03em 0 gray;
+}
+#btn-nav:hover {
+  color: #8d021f;
+}
+
+#btn-nav1 {
+  font-size: 0.7em;
+  color: #ff908b;
+}
+#btn-nav1:hover {
+  color: rgb(165, 164, 164);
+}
+
+#carouselExampleInterval {
+  width: 100%;
+  height: fit-content;
+  padding: 0.3em;
+}
+
+/*#image {
+  opacity: 40%;
+}*/
+
+@media (max-width: 62em) {
+  .lista1 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+  .description-title {
+    font-size: 2.5em;
+  }
+  #img1 {
+    width: 14em;
+  }
+  #centrar {
+    padding-left: 3.6em;
+  }
+  img {
+    width: 20em;
+  }
+}
